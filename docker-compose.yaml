@@ -1,0 +1,6 @@
+version: "3"
+services:
+  ecom-app:
+    build: .
+    ports:
+      - "3000:3000"
